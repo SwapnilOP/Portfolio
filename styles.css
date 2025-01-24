@@ -1,0 +1,120 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Body Styling */
+body {
+    background: linear-gradient(to right, #4facfe, #7b72e9, #b66df2);
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Header Styling */
+.header {
+    height: 8%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.4);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, color 0.3s ease, height 0.3s ease;
+}
+/* Portfolio Text */
+.portfolio {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #f9f9f9;
+}
+#profilePic{
+    background-image: url("profilePic.jpg");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    height: 20rem; 
+    width: 20rem; 
+    border-radius: 50%; 
+    border: 2px solid #fff; 
+    margin: 3%;
+    box-shadow: 10px 5px 50px rgb(16, 4, 39);
+    transition: height 0.3s, width 0.3s, border 0.3s, box-shadow 0.3s;
+}
+#profilePic:hover{
+    border: 2px solid rgb(255, 255, 30);
+    height: 21rem; 
+    width: 21rem; 
+}
+/* Navbar Links */
+.nav-bar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #f9f9f9;
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ffdc62;
+}
+
+/* Home Section Styling */
+.common {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 12px;
+    height: 40%;
+    width: 80%;
+    padding: 20px;
+    color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.common h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.common p {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+/* Footer Styling */
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: auto;
+    height: 2%;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-size: 1rem;
+    color: #f9f9f9;
+}
