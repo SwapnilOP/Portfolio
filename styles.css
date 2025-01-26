@@ -118,3 +118,37 @@ a:hover {
     font-size: 1rem;
     color: #f9f9f9;
 }
+/* For mobile devices */
+@media (max-width: 480px) {
+    .portfolio {
+        font-size: 1.5rem;
+    }
+
+    #profilePic {
+        height: 12rem;
+        width: 12rem;
+    }
+
+    .common h1 {
+        font-size: 1.8rem;
+    }
+
+    .common p {
+        font-size: 0.9rem;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    a {
+        font-size: 0.9rem;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
